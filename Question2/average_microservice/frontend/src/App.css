@@ -1,0 +1,59 @@
+.App {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 30px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+select, button {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.results {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+pre {
+  background: #efefef;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+.error {
+  color: red;
+}
+.results h2 {
+  color: #333;
+}
+.results p {
+  font-size: 18px;
+  color: #555;
+}
+.results ul {
+  list-style-type: none;
+  padding: 0;
+}
+.results li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+.results li:last-child {
+  border-bottom: none;
+}
+.results li span {
+  font-weight: bold;
+}
+.results li span.value {
+  color: #007bff;
+} 
